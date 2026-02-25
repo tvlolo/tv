@@ -1,0 +1,1132 @@
+{
+  "wallpaper": "https://789.st/zLP7cyj",
+  "logo": "https://789.st/GlhcG1r",
+  "spider": "./0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+  "lives": [
+    {
+      "name": "💖梁雨轩TV直播",
+      "type": 0,
+      "url": "./lib/Jsnzkpg1.m3u"
+    },
+    {
+      "name": "💖日后TV直播",
+      "type": 0,
+      "url": "http://rihou.cc:555/gggg.nzk",
+      "playerType": 2,
+      "ua": "okhttp/3",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+    },
+    {
+      "name": "💖潇雨萌萌TV直播",
+      "type": 0,
+      "url": "https://ds65.tv1288.xyz",
+      "playerType": 1
+    },
+    {
+      "name": "💖风云TV直播",
+      "type": 1,
+      "url": "./lib/FYTV.txt"
+    },
+    {
+      "name": "💖蜂巢TV直播",
+      "type": 1,
+      "url": "https://niurl.cc/7DdpuD"
+    },
+    {
+      "name": "💖宫殿TV直播",
+      "type": 0,
+      "url": "https://gongdian.top/tv/iptv",
+      "playerType": 1,
+      "logo": "https://gongdian.top/tv/taibiao/{name}.png"
+    },
+    {
+      "name": "💖白雪TV直播",
+      "type": 1,
+      "url": "./lib/live.txt"
+    },
+    {
+      "name": "💖咪咕TV直播",
+      "type": 0,
+      "url": "https://iptv.gstory.cn/Cinetry"
+    },
+    {
+      "name": "💖易发TV直播",
+      "type": 1,
+      "url": "./lib/yiyifafa.txt"
+    },
+    {
+      "name": "💖JackTV直播{翻}",
+      "url": "./lib/jackTV.m3u",
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+      }
+    },
+    {
+      "name": "💖日本TV直播{翻}",
+      "type": 0,
+      "ua": "okhttp/5.3.2",
+      "url": "./lib/jp.m3u"
+    },
+    {
+      "name": "💖海外TV直播{翻}",
+      "type": 0,
+      "url": "./lib/index.m3u"
+    }
+  ],
+  "sites": [
+    {
+      "key": "梁雨轩豆瓣片单",
+      "name": "✈️TG频道@stymei",
+      "type": 3,
+      "api": "csp_Douban",
+      "jar": "./lib/34dc804020748504a15e2767b37656c3.jar",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "./lib/3.txt"
+    },
+    {
+      "key": "梁雨轩电视直播",
+      "name": "💖梁雨轩丨电视丨直播",
+      "type": 3,
+      "searchable": 0,
+      "changeable": 0,
+      "api": "./lib/zbzdb.js",
+      "ext": "./lib/zbzdb.json"
+    },
+    {
+      "key": "梁雨轩快手直播",
+      "name": "💖梁雨轩丨快手丨直播",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "sp": "KsLive"
+      },
+      "timeout": 10
+    },
+    {
+      "key": "梁雨轩斗鱼直播",
+      "name": "💖梁雨轩丨斗鱼丨直播",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/斗鱼直播.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "梁雨轩虎牙直播",
+      "name": "💖梁雨轩丨虎牙丨直播",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "sp": "Huya"
+      },
+      "timeout": 10
+    },
+    {
+      "key": "梁雨轩哔哩直播",
+      "name": "💖梁雨轩丨哔哩丨直播",
+      "type": 3,
+      "api": "./lib/d18d26a80c0d820e716be81e51568488.py"
+    },
+    {
+      "key": "梁雨轩电台直播",
+      "name": "💖梁雨轩丨电台丨直播",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/蜻蜓FM.js"
+    },
+    {
+      "key": "梁雨轩免扫网盘",
+      "name": "💖移动丨免扫丨网盘",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "sp": "Panta"
+      },
+      "timeout": 25
+    },
+    {
+      "key": "梁雨轩6V影视",
+      "name": "💖梁雨轩丨6V丨影视",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "sp": "Xb6v"
+      },
+      "timeout": 20
+    },
+    {
+      "key": "梁雨轩雄鹰影视",
+      "name": "💖梁雨轩丨雄鹰丨影视",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "sp": "XiongYing",
+        "danmu": true
+      },
+      "timeout": 10
+    },
+    {
+      "key": "梁雨轩比特影视",
+      "name": "💖梁雨轩丨比特丨影视",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": {
+        "sp": "Btt",
+        "danmu": true
+      },
+      "timeout": 10
+    },
+    {
+      "key": "梁雨轩瓜子影视",
+      "name": "💖梁雨轩丨瓜子丨影视",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "sp": "Guazi",
+        "danmu": true
+      },
+      "timeout": 10
+    },
+    {
+      "api": "https://catbox.n13.club/ai/瓜子影视.php",
+      "key": "梁雨轩瓜子备用",
+      "name": "💖梁雨轩丨瓜子丨备用",
+      "type": 4
+    },
+    {
+      "key": "梁雨轩糯米影视",
+      "name": "💖梁雨轩丨糯米丨影视",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "sp": "Nmys",
+        "danmu": true
+      },
+      "timeout": 10
+    },
+    {
+      "key": "梁雨轩天天影视",
+      "name": "💖梁雨轩丨天天丨影视",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "sp": "TianTian",
+        "danmu": true,
+        "site": 0
+      },
+      "timeout": 10
+    },
+    {
+      "key": "梁雨轩厂长影视",
+      "name": "💖梁雨轩丨厂长丨影视",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "sp": "Czzy",
+        "danmu": true
+      },
+      "timeout": 10
+    },
+    {
+      "key": "梁雨轩佩琪影视",
+      "name": "💖梁雨轩丨佩琪丨影视",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "sp": "XiaoZhu",
+        "danmu": true
+      },
+      "timeout": 10
+    },
+    {
+      "key": "梁雨轩一起影视",
+      "name": "💖梁雨轩丨一起丨影视",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "sp": "Yqs",
+        "danmu": true
+      },
+      "timeout": 10
+    },
+    {
+      "key": "梁雨轩韩圈影视",
+      "name": "💖梁雨轩丨韩圈丨影视",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "sp": "HanXiaoQuan",
+        "danmu": true
+      },
+      "timeout": 10
+    },
+    {
+      "key": "梁雨轩奇奇影视",
+      "name": "💖梁雨轩丨奇奇丨影视",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "sp": "QiQi",
+        "danmu": true
+      },
+      "timeout": 10
+    },
+    {
+      "key": "梁雨轩泥巴影视",
+      "name": "💖梁雨轩丨泥巴丨影视",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/泥泥视频.js"
+    },
+    {
+      "key": "梁雨轩MG影视",
+      "name": "💖梁雨轩丨MG丨影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/mgtv.js"
+    },
+    {
+      "key": "梁雨轩聚梦影视",
+      "name": "💖梁雨轩丨聚梦丨影视",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/jumeng.php"
+    },
+    {
+      "api": "https://newtv.ggff.net/jubaba?token=fhJadO1R",
+      "key": "梁雨轩剧吧影视",
+      "name": "💖梁雨轩丨剧吧丨影视",
+      "type": 4
+    },
+    {
+      "key": "梁雨轩爬虫影视",
+      "name": "💖梁雨轩丨爬虫丨影视",
+      "type": 1,
+      "api": "https://dy.7772888.xyz/api.php/tvbox",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "梁雨轩网易影视",
+      "name": "💖梁雨轩丨网易丨影视",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "changeable": 0,
+      "ext": "./lib/网易公版影像.js"
+    },
+    {
+      "key": "梁雨轩哔哩影视",
+      "name": "💖梁雨轩丨哔哩丨影视",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "sp": "Bilimd"
+      },
+      "timeout": 10
+    },
+    {
+      "key": "梁雨轩独播JS",
+      "name": "💖梁雨轩丨独播丨JS",
+      "type": 3,
+      "api": "./lib/fbe5493683cbef26437721513d495d7d.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "梁雨轩酷六JS",
+      "name": "💖梁雨轩丨酷六丨JS",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "changeable": 0,
+      "ext": "./lib/酷6网.js"
+    },
+    {
+      "key": "梁雨轩EmbyJS",
+      "name": "💖梁雨轩丨Emby丨JS",
+      "type": 3,
+      "api": "./lib/40d30fe3d9671e0d700f1c272bb20aaa.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "梁雨轩苹果JS",
+      "name": "💖梁雨轩丨苹果丨JS",
+      "type": 3,
+      "api": "./lib/e603543fa096163b17e8c90a63a96b63.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
+      "key": "梁雨轩荐片JS",
+      "name": "💖梁雨轩丨荐片丨JS",
+      "type": 3,
+      "api": "./lib/16ba56f7ddd38134bb0725ad63f1f72b.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
+      "key": "梁雨轩短剧JS",
+      "name": "💖梁雨轩丨短剧丨JS",
+      "type": 3,
+      "api": "./lib/93e0decefe3a2ad8949c5fe389d6cab2.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
+      "key": "梁雨轩海龟JS",
+      "name": "💖梁雨轩丨海龟丨JS",
+      "type": 3,
+      "api": "./lib/f6690a283956c245aee15ef24411afde.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
+      "key": "梁雨轩永乐JS",
+      "name": "💖梁雨轩丨永乐丨JS",
+      "type": 3,
+      "api": "./lib/0338609bd59d7b27226f5a269ec97936.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
+      "key": "梁雨轩金牌JS",
+      "name": "💖梁雨轩丨金牌丨JS",
+      "type": 3,
+      "api": "./lib/af2c84aea46fa071e9d9bfa04a9f86ac.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
+      "key": "梁雨轩两个BT",
+      "name": "💖梁雨轩丨2BT丨PY",
+      "api": "./lib/447cf39f4cb26681ecacfd7f29cd0029.py",
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
+    },
+    {
+      "key": "梁雨轩界影PY",
+      "name": "💖梁雨轩丨界影丨PY",
+      "api": "./lib/4440a9a56b6d222647a856452eefb21a.py",
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
+    },
+    {
+      "key": "梁雨轩猎手PY",
+      "name": "💖梁雨轩丨猎手丨PY",
+      "api": "./lib/60fab5ff33f0b0fd88f099ae3be708bf.py",
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
+    },
+    {
+      "key": "梁雨轩芒果PY",
+      "name": "💖梁雨轩丨芒果丨PY",
+      "api": "./lib/643d3f9a0b601f25d3e372eeb66e82a5.py",
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
+    },
+    {
+      "key": "梁雨轩兄弟PY",
+      "name": "💖梁雨轩丨兄弟丨PY",
+      "api": "./lib/b1cdcf76574a0cb24d5b937d46458cdf.py",
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
+    },
+    {
+      "key": "梁雨轩海外PY",
+      "name": "💖梁雨轩丨海外丨PY",
+      "type": 3,
+      "api": "./lib/b3d597e2db2ca2c7e7aa03b65aa172c6.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "梁雨轩小红PY",
+      "name": "💖梁雨轩丨小红丨PY",
+      "type": 3,
+      "api": "./lib/4e3abedeb4415a85de53c1f7e0951dab.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "梁雨轩央视PY",
+      "name": "💖梁雨轩丨央视丨PY",
+      "type": 3,
+      "api": "./lib/2dfd46b7b542f1f4ac34e0af4ec5549b.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "梁雨轩栏目PY",
+      "name": "💖梁雨轩丨栏目丨PY",
+      "type": 3,
+      "api": "./lib/83d7645e7fa012dba942c467774e7b2b.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "梁雨轩锦鲤短剧",
+      "name": "💖梁雨轩丨锦鲤丨短剧",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "sp": "Jinli"
+      },
+      "timeout": 10
+    },
+    {
+      "key": "梁雨轩盒马短剧",
+      "name": "💖梁雨轩丨盒马丨短剧",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "sp": "HeMa"
+      },
+      "timeout": 10
+    },
+    {
+      "key": "梁雨轩星芽短剧",
+      "name": "💖梁雨轩丨星芽丨短剧",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "sp": "AppXY"
+      },
+      "timeout": 10
+    },
+    {
+      "key": "梁雨轩甜圈短剧",
+      "name": "💖梁雨轩丨甜圈丨短剧",
+      "type": 3,
+      "api": "./lib/f194c10e99e326d8904914219b7ebc52.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "梁雨轩剧王短剧",
+      "name": "💖梁雨轩丨剧王丨短剧",
+      "type": 3,
+      "api": "./lib/b9c6c381312dcd5b510ac3e6bb49aa0f.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "梁雨轩七星短剧",
+      "name": "💖梁雨轩丨七星丨短剧",
+      "type": 3,
+      "api": "./lib/48e9d346cdf6da376c53136693bec95a.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "梁雨轩星阁短剧",
+      "name": "💖梁雨轩丨星阁丨短剧",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/xingzhige.php"
+    },
+    {
+      "key": "梁雨轩酷狗音乐",
+      "name": "💖梁雨轩丨酷狗丨音乐",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "sp": "KuGou"
+      },
+      "timeout": 10
+    },
+    {
+      "key": "梁雨轩哔哩音乐",
+      "name": "💖梁雨轩丨哔哩丨音乐",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/bili.php?id=bMTV"
+    },
+    {
+      "key": "梁雨轩易听音乐",
+      "name": "💖梁雨轩丨易听丨音乐",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "sp": "ShiJiMusic"
+      },
+      "timeout": 10
+    },
+    {
+      "key": "梁雨轩爱听音乐",
+      "name": "💖梁雨轩丨爱听丨音乐",
+      "type": 3,
+      "api": "./lib/b3284feb00815ddd5d7e71e1468d9cf1.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "梁雨轩枫叶音乐",
+      "name": "💖梁雨轩丨枫叶丨音乐",
+      "type": 3,
+      "api": "./lib/2090fedb67387ea1a1ad908a94eb0aa6.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "梁雨轩初心音乐",
+      "name": "💖梁雨轩丨初心丨音乐",
+      "type": 3,
+      "jar": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260221/thjI/fish02210815.png;md5;4f5c829f4dfd3567a50977cabfc6d636",
+      "api": "csp_ChuXin",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "梁雨轩啊哈DJ",
+      "name": "💖梁雨轩丨啊哈丨DJ",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/aha.php"
+    },
+    {
+      "key": "梁雨轩悠悠DJ",
+      "name": "💖梁雨轩丨悠悠丨DJ",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/djuu.php"
+    },
+    {
+      "key": "梁雨轩樱花动漫",
+      "name": "💖梁雨轩丨樱花丨动漫",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "filterable": 1,
+      "ext": {
+        "sp": "YHDM"
+      },
+      "timeout": 15
+    },
+    {
+      "key": "梁雨轩NT动漫",
+      "name": "💖梁雨轩丨NT丨动漫",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "https://7337.kstore.vip/js/NT动漫.js"
+    },
+    {
+      "key": "梁雨轩巴士动漫",
+      "name": "💖梁雨轩丨巴士丨动漫",
+      "type": 4,
+      "api": "https://py.doube.eu.org/v2/spider?site=6b5899d243816bacb8712de7ab6ceb89"
+    },
+    {
+      "key": "梁雨轩瓜子体育",
+      "name": "💖梁雨轩丨瓜子丨体育",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      },
+      "ext": {
+        "sp": "GzSport"
+      },
+      "timeout": 10
+    },
+    {
+      "key": "88",
+      "name": "💖梁雨轩丨88丨体育",
+      "type": 3,
+      "jar": "./lib/饭太硬.jar",
+      "api": "csp_Sir88Guard",
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "梁雨轩听书",
+      "name": "💖梁雨轩丨听书丨长辈",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/爱上你听书网.js"
+    },
+    {
+      "key": "梁雨轩评书",
+      "name": "💖梁雨轩丨评书丨长辈",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/suishenting.php"
+    },
+    {
+      "key": "梁雨轩相声",
+      "name": "💖梁雨轩丨相声丨长辈",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/bili.php?id=Blixs"
+    },
+    {
+      "key": "梁雨轩小品",
+      "name": "💖梁雨轩丨小品丨长辈",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "sp": "Bili",
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/41F4D38_773_bilixp_20251204150443351newMediaFile.bmp"
+      },
+      "timeout": 20
+    },
+    {
+      "key": "梁雨轩戏曲",
+      "name": "💖梁雨轩丨戏曲丨长辈",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/bili.php?id=Blixq"
+    },
+    {
+      "key": "梁雨轩广场舞",
+      "name": "💖梁雨轩丨广场舞丨长辈",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/tangdou.php"
+    },
+    {
+      "key": "梁雨轩宝宝教育",
+      "name": "💖梁雨轩丨宝宝丨教育",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/bili.php?id=少儿教育"
+    },
+    {
+      "key": "梁雨轩小学教育",
+      "name": "💖梁雨轩丨小学丨教育",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/bili.php?id=小学课堂"
+    },
+    {
+      "key": "梁雨轩初中教育",
+      "name": "💖梁雨轩丨初中丨教育",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/bili.php?id=初中课堂"
+    },
+    {
+      "key": "梁雨轩高中教育",
+      "name": "💖梁雨轩丨高中丨教育",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/bili.php?id=高中课堂"
+    },
+    {
+      "key": "梁雨轩教程",
+      "name": "💖梁雨轩丨教程丨聚合",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/bili.php?id=软件教程"
+    },
+    {
+      "key": "梁雨轩美食聚合",
+      "name": "💖梁雨轩丨美食丨聚合",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/bili.php?id=美食"
+    },
+    {
+      "key": "梁雨轩外语聚合",
+      "name": "💖梁雨轩丨外语丨聚合",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/bili.php?id=waiyu"
+    },
+    {
+      "key": "梁雨轩视频聚合",
+      "name": "💖梁雨轩丨视频丨聚合",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "sp": "Bili",
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/57EAD2E_773_bili_20251204145747516newMediaFile.bmp"
+      },
+      "timeout": 20
+    },
+    {
+      "key": "梁雨轩采集聚合",
+      "name": "💖梁雨轩丨采集丨聚合",
+      "type": 4,
+      "api": "http://zhangqun1818.serv00.net/cj/cjjh.php",
+      "searchable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "ext": "1",
+      "changeable": 1
+    },
+    {
+      "key": "梁雨轩JS聚合",
+      "name": "💖梁雨轩丨JS丨聚合",
+      "type": 4,
+      "api": "http://zhangqun1818.serv00.net/js.php",
+      "searchable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
+      "key": "梁雨轩PY聚合",
+      "name": "💖梁雨轩丨PY丨聚合",
+      "type": 4,
+      "api": "http://zhangqun1818.serv00.net/py.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "梁雨轩php聚合",
+      "name": "💖梁雨轩丨PHP丨聚合",
+      "type": 4,
+      "api": "http://zhangqun1818.serv00.net/php.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "wsycj",
+      "name": "💖梁雨轩丨4K丨采集",
+      "type": 1,
+      "api": "https://api.wsyzy.net/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "4K电影",
+        "Netflix电影",
+        "Netflix自制剧",
+        "邵氏电影",
+        "演唱会",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "动画片",
+        "国产剧",
+        "欧美剧",
+        "韩剧",
+        "日剧",
+        "港剧",
+        "台剧",
+        "泰剧",
+        "海外剧",
+        "大陆综艺",
+        "日韩综艺",
+        "港台综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "有声动漫",
+        "女频恋爱",
+        "反转爽剧",
+        "古装仙侠",
+        "年代穿越",
+        "脑洞悬疑",
+        "现代都市",
+        "擦边短剧",
+        "漫剧"
+      ]
+    },
+    {
+      "key": "dyttcj",
+      "name": "💖梁雨轩丨天堂丨采集",
+      "type": 1,
+      "api": "http://dyttzyw.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "动作片",
+        "科幻片",
+        "爱情片",
+        "战争片",
+        "动画片",
+        "喜剧片",
+        "恐怖片",
+        "剧情片",
+        "纪录片",
+        "伦理片",
+        "国产剧",
+        "香港剧",
+        "台湾剧",
+        "海外剧",
+        "短剧",
+        "欧美剧",
+        "韩国剧",
+        "日本剧",
+        "泰国剧",
+        "国产动漫",
+        "欧美动漫",
+        "海外动漫",
+        "日韩动漫",
+        "港台动漫",
+        "大陆综艺",
+        "日韩综艺",
+        "港台综艺",
+        "欧美综艺"
+      ]
+    },
+    {
+      "key": "bfzycj",
+      "name": "💖梁雨轩丨暴风丨采集",
+      "type": 1,
+      "api": "http://by.bfzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "理论片",
+        "纪录片",
+        "战争片",
+        "剧情片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "喜剧片",
+        "动作片",
+        "动画片",
+        "预告片",
+        "重生民国",
+        "穿越年代",
+        "现代言情",
+        "反转爽文",
+        "女恋总裁",
+        "闪婚离婚",
+        "都市脑洞",
+        "古装仙侠",
+        "足球",
+        "篮球",
+        "网球",
+        "斯诺克",
+        "电影解说",
+        "欧美综艺",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "国产动漫",
+        "海外剧",
+        "泰国剧",
+        "香港剧",
+        "韩国剧",
+        "台湾剧",
+        "日本剧",
+        "欧美剧",
+        "国产剧"
+      ]
+    },
+    {
+      "key": "jszycj",
+      "name": "💖梁雨轩丨极速丨采集",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "日剧",
+        "马泰剧",
+        "内地剧",
+        "欧美剧",
+        "香港剧",
+        "韩剧",
+        "台湾剧",
+        "恐怖片",
+        "动画片",
+        "剧情片",
+        "战争片",
+        "动作片",
+        "爱情片",
+        "喜剧片",
+        "科幻片",
+        "纪录片",
+        "灾难片",
+        "悬疑片",
+        "犯罪片",
+        "奇幻片",
+        "中国动漫",
+        "日本动漫",
+        "欧美动漫",
+        "大陆综艺",
+        "日韩综艺",
+        "港台综艺",
+        "欧美综艺",
+        "短剧",
+        "伦理片",
+        "体育赛事",
+        "预告片"
+      ]
+    }
+  ]
+}
