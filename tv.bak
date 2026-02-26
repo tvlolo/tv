@@ -703,7 +703,7 @@
       "key": "梁雨轩枫叶音乐",
       "name": "💖梁雨轩丨枫叶丨音乐",
       "type": 3,
-      "api": "./lib/2090fedb67387ea1a1ad908a94eb0aa6.py",
+      "api": "./py/枫叶.py",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
