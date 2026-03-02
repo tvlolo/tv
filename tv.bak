@@ -31,7 +31,7 @@
     {
       "name": "💖风云TV直播",
       "type": 1,
-      "url": "./lib/FYTV.txt"
+      "url": "./zb/FYTV.txt"
     },
     {
       "name": "💖蜂巢TV直播",
@@ -48,7 +48,7 @@
     {
       "name": "💖白雪TV直播",
       "type": 1,
-      "url": "./lib/live.txt"
+      "url": "./zb/live.txt"
     },
     {
       "name": "💖咪咕TV直播",
@@ -58,11 +58,11 @@
     {
       "name": "💖易发TV直播",
       "type": 1,
-      "url": "./lib/yiyifafa.txt"
+      "url": "./zb/yiyifafa.txt"
     },
     {
       "name": "💖JackTV直播{翻}",
-      "url": "./lib/jackTV.m3u",
+      "url": "./zb/jackTV.m3u",
       "header": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
       }
@@ -71,12 +71,12 @@
       "name": "💖日本TV直播{翻}",
       "type": 0,
       "ua": "okhttp/5.3.2",
-      "url": "./lib/jp.m3u"
+      "url": "./zb/jp.m3u"
     },
     {
       "name": "💖海外TV直播{翻}",
       "type": 0,
-      "url": "./lib/index.m3u"
+      "url": "./zb/index.m3u"
     }
   ],
   "sites": [
