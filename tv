@@ -82,7 +82,7 @@
   "sites": [
     {
       "key": "梁雨轩豆瓣片单",
-      "name": "✈️TG频道@stymei",
+      "name": "梁雨轩豆瓣",
       "type": 3,
       "api": "csp_Douban",
       "jar": "./lib/34dc804020748504a15e2767b37656c3.jar",
